@@ -1,0 +1,63 @@
+﻿@model FormViewModel
+
+@{
+    ViewData["Title"] = @Html.DisplayFor(x => x.CampaignName);
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Html.DisplayFor(x => x.CampaignName)</h1>
+</div>
+
+<hr />
+@Html.DisplayFor(x => x.CampaignDescription)
+
+<br />
+<br />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="PostForm">
+            @Html.HiddenFor(x => x.CampaignId)
+            <hr />
+            <div class="form-group">
+                <label asp-for="Person.Name" class="control-label">Name</label>
+                <input asp-for="Person.Name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Person.Email" class="control-label">Email</label>
+                <input asp-for="Person.Email" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Person.Birth" class="control-label">Birth</label>
+                <input asp-for="Person.Birth" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Person.Phone" class="control-label">Phone</label>
+                <input asp-for="Person.Phone" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Person.Mobile" class="control-label">Mobile</label>
+                <input asp-for="Person.Mobile" class="form-control" />
+            </div>
+
+            <hr />
+            <div class="text-center">
+                <h7>Questions</h7>
+            </div>
+
+            <hr />
+            @for(int i = 0; i < Model.Answers.Count; i++)
+            {
+                @Html.HiddenFor(x => x.Answers[i].QuestionId);
+                @Html.DisplayFor(x => x.Answers[i].QuestionDescription)
+                <input asp-for="Answers[i].AnswerDescription" class="form-control" />
+            }
+            
+            <hr />
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Send" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

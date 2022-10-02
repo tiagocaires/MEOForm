@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meo.Data", "Meo.Data\Meo.Data.csproj", "{F6C2C02B-54F7-4C9E-B623-BB738E4E0933}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meo.Model", "Meo.Model\Meo.Model.csproj", "{664A6065-73C0-4B50-8075-525A6A7657D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meo.Service", "Meo.Service\Meo.Service.csproj", "{1B92B095-B824-46AE-B381-2E54C1C246EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meo.WebAPI", "Meo.WebAPI\Meo.WebAPI.csproj", "{6C99A68E-E2C6-4042-A7B2-31C377838009}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meo.WebUI", "Web.UI\Meo.WebUI.csproj", "{41281A0A-EE6A-4D62-A7F3-0BF5EBE11E9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meo.XUnitTest", "Meo.XUnitTest\Meo.XUnitTest.csproj", "{44D3222D-5AEF-4348-9230-382D9F52E2E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6C2C02B-54F7-4C9E-B623-BB738E4E0933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C2C02B-54F7-4C9E-B623-BB738E4E0933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C2C02B-54F7-4C9E-B623-BB738E4E0933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C2C02B-54F7-4C9E-B623-BB738E4E0933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664A6065-73C0-4B50-8075-525A6A7657D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664A6065-73C0-4B50-8075-525A6A7657D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664A6065-73C0-4B50-8075-525A6A7657D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664A6065-73C0-4B50-8075-525A6A7657D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B92B095-B824-46AE-B381-2E54C1C246EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B92B095-B824-46AE-B381-2E54C1C246EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B92B095-B824-46AE-B381-2E54C1C246EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B92B095-B824-46AE-B381-2E54C1C246EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C99A68E-E2C6-4042-A7B2-31C377838009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C99A68E-E2C6-4042-A7B2-31C377838009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C99A68E-E2C6-4042-A7B2-31C377838009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C99A68E-E2C6-4042-A7B2-31C377838009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41281A0A-EE6A-4D62-A7F3-0BF5EBE11E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41281A0A-EE6A-4D62-A7F3-0BF5EBE11E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41281A0A-EE6A-4D62-A7F3-0BF5EBE11E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41281A0A-EE6A-4D62-A7F3-0BF5EBE11E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D3222D-5AEF-4348-9230-382D9F52E2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D3222D-5AEF-4348-9230-382D9F52E2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D3222D-5AEF-4348-9230-382D9F52E2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D3222D-5AEF-4348-9230-382D9F52E2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14173CF2-ED03-4878-A6D6-0F366A50DB21}
+	EndGlobalSection
+EndGlobal
